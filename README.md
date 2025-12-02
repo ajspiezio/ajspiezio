@@ -1,16 +1,17 @@
-## Hi there 👋
+# 👋 Hey, I’m Andrew!
 
-<!--
-**ajspiezio/ajspiezio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 CS graduate from UMass Amherst and hybrid Technical Support Associate / Software Developer at NEM. I build practical tools—from AI-powered knowledge systems to automation for ATM/cash-recycler environments. Outside of work, I’m into PC building, gaming, and hardware tinkering.
 
-Here are some ideas to get you started:
+## 🧠 About Me  
+Interests: Applied AI • Hardware • Gaming • Web Dev • Automation  
+Pronouns: He/Him  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🧰 Skills  
+Languages: Python • TypeScript/JavaScript • Java • SQL  
+Tools: VS Code • NestJS • Node.js • Azure • Git/GitHub • REST APIs • Docker  
+Other: ATM/Cash Recycler support • PC hardware optimization  
+
+## 🎯 Currently Working On  
+- An AI technician-assistant using Azure + custom retrieval  
+- Automation scripts for cash recyclers  
+- A new portfolio + full-stack projects  
