@@ -8,6 +8,7 @@ Pronouns: He/Him
 
 ## 🧰 Skills  
 Languages: Python • TypeScript/JavaScript • Java • SQL • Batch Scripting
+
 Tools: VS Code • NestJS • Node.js • Azure • Git/GitHub • REST APIs • Docker  
 Other: ATM/Cash Recycler support • PC hardware optimization  
 
