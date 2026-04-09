@@ -12,14 +12,15 @@ About Me:
 Skills:
 
   Languages: Python, TypeScript/JavaScript, Java, SQL, Batch/PowerShell, C++
-  Tools: VS Code, FastAPI, React, Vite, Node.js, Azure, Git/GitHub, Docker, REST APIs
+  Tools: VS Code, FastAPI, React, Vite, Node.js, Azure, Git/GitHub, Docker, Playwright, REST APIs
   Domain: Cash recycler/ATM diagnostics, hardware integration, field-tech workflow design
 
 Currently Working On:
 
-  NEM Judge — full-stack diagnostic platform for RBG-100 cash recyclers (FastAPI + React/TypeScript)
+  NEM Judge — multi-model diagnostic platform for Glory cash recyclers (FastAPI + React/TypeScript)
+  - Supports RBG-100 and GLR-100 with variant-aware diagrams (STC/Non-STC)
   - Error code lookup with interactive hardware diagrams, component highlighting, and auto-zoom
   - Log parsing, batch analysis, and heatmap visualization for multi-code troubleshooting
   - Admin tooling for diagram annotation, region mapping, and role-based access
   - Query/session logging and analytics — track issue frequency by technician and session
-  - Deployed on Azure (ACR + App Service) with Docker
+  - End-to-end tested with Playwright, deployed on Azure (ACR + App Service) with Docker
