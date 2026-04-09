@@ -10,10 +10,9 @@ About Me:
   Pronouns: He/Him
 
 Skills:
-
-  Languages: Python, TypeScript/JavaScript, Java, SQL, Batch/PowerShell, C++
-  Tools: VS Code, FastAPI, React, Vite, Node.js, Azure, Git/GitHub, Docker, Playwright, REST APIs
-  Domain: Cash recycler/ATM diagnostics, hardware integration, field-tech workflow design
+  - Languages: Python, TypeScript/JavaScript, Java, SQL, Batch/PowerShell, C++
+  - Tools: VS Code, FastAPI, React, Vite, Node.js, Azure, Git/GitHub, Docker, Playwright, REST APIs
+  - Domain: Cash recycler/ATM diagnostics, hardware integration, field-tech workflow design
 
 Currently Working On:
 
