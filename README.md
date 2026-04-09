@@ -6,6 +6,7 @@ Hey, I'm Andrew!
 About Me:
 
   Interests: Applied AI, Hardware, Web Dev, Automation
+  
   Pronouns: He/Him
 
 Skills:
