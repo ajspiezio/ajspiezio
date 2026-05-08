@@ -30,13 +30,6 @@
   - Log parsing, batch analysis, and heatmap visualization for multi-code troubleshooting                                                                      
   - Admin tooling for diagram annotation, region mapping, and role-based access                                                                                
   - Query/session logging and analytics — track issue frequency by technician and session                                                                      
-  - End-to-end tested with Playwright; deployed on Azure (ACR + App Service) via Docker                                                                        
-                                                                                                                                                               
-  ## GitHub Stats                                                                                                                                              
-                                                                                                                                                               
-  ![Andrew's GitHub                                                                                                                                            
-  stats](https://github-readme-stats.vercel.app/api?username=ajspiezio&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true)
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ajspiezio&layout=compact&theme=transparent&hide_border=true&langs_count=8)   
-                                                                                                                                                               
+  - End-to-end tested with Playwright; deployed on Azure (ACR + App Service) via Docker                                                                                                                                                 
   ## Connect                                                                                                
   - [LinkedIn](https://linkedin.com/in/andrew-spiezio)
