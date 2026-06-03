@@ -33,4 +33,4 @@
   - End-to-end tested with Playwright; deployed on Azure (ACR + App Service) via Docker                                                                                                                                                 
   ## Connect                                                                                                
   - [LinkedIn](https://linkedin.com/in/andrew-spiezio)
-  - [Portfolio](https://ajspiezio.github.io/#work)
+  - [Portfolio](https://ajspiezio.github.io/)
