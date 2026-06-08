@@ -21,7 +21,7 @@
                                                                   
   ## Currently Building                                                                                                                                        
    
-  ### [NEM Judge](https://github.com/ajspiezio/NEM-Judge) — multi-model diagnostic platform for Glory cash recyclers                                           
+  ### [NEM Judge](https://github.com/ajspiezio/Judge) — multi-model diagnostic platform for Glory cash recyclers                                           
                                                                   
   FastAPI backend + React / TypeScript frontend, deployed on Azure.                                                                                            
                                                                   
