@@ -11,7 +11,7 @@
                                                                                                                                                                
   **Languages**                                                   
 
-  [![My Skills](https://skillicons.dev/icons?i=python,ts,js,java,powershell,cpp&perline=8)](https://skillicons.dev)                                            
+  [![My Skills](https://skillicons.dev/icons?i=python,ts,js,java&perline=8)](https://skillicons.dev)                                            
    
   **Frameworks & Tools**                                                                                                                                       
                                                                   
