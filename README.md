@@ -15,7 +15,7 @@ CS graduate from UMass Amherst. Sole internal software developer at New England 
 
 **Frameworks & Tools**
 
-[![My Skills](https://skillicons.dev/icons?i=fastapi,react,vite,nodejs,docker,azure,redis,sqlite,git&perline=8)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=fastapi,react,vite,nodejs,docker,azure,redis,sqlite,git&perline=9)](https://skillicons.dev)
 
 **Domain:** Cash recycler / ATM diagnostics · hardware integration · field-tech workflow design
 
