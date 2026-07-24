@@ -37,5 +37,5 @@ Started as two-way USB serial I/O for Cassida Pro Zeus currency discriminators â
 
 ## Connect
 
-- [LinkedIn](https://linkedin.com/in/andrew-spiezio)
+- [LinkedIn](https://www.linkedin.com/in/aspiezio)
 - [Portfolio](https://ajspiezio.github.io/)
