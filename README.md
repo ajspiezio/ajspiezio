@@ -15,25 +15,36 @@ CS graduate from UMass Amherst. Sole internal software developer at New England 
 
 **Frameworks & Tools**
 
-[![My Skills](https://skillicons.dev/icons?i=fastapi,react,vite,nodejs,docker,azure,redis,sqlite,git&perline=9)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=fastapi,react,vite,nodejs,docker,azure,redis,sqlite,githubactions,git&perline=10)](https://skillicons.dev)
 
-**Domain:** Cash recycler / ATM diagnostics · hardware integration · field-tech workflow design
+**Domain:** Cash recycler / ATM diagnostics · hardware integration · field-tech workflow design · MCP and Claude skills
 
 ## Currently Building
 
-### Judge — multi-model diagnostic platform for Glory cash recyclers
+### Judge: diagnostics and field operations for Glory cash recyclers
 
-FastAPI backend + React / TypeScript frontend, deployed on Azure.
+FastAPI backend, React / TypeScript frontend, deployed on Azure. Currently at v11.1 after 1,000+ commits.
 
-- Turns 1,150+ pages of vendor error documentation into a searchable, schematic-aware interface — **tap an error code, see the part on the machine**. Live for **RBG-100** (392 codes) and **GLR-100** (754 codes) from a single configuration.
-- **"Ask Judge"** — a remote MCP connector that exposes Judge's grounded diagnostics inside Claude: symptom diagnosis, multi-code error-sequence correlation, code lookup, and step-by-step repair workflows.
-- 60+ guided repair workflows with 460+ field-captured photos; interactive hardware diagrams with component highlighting and auto-zoom.
-- Hardened for multi-tenant SaaS: Azure AD single sign-on, a tamper-evident hash-chained audit log, per-customer access rules, rate limiting, and an encryption-at-rest boot check.
-- 1,300+ backend tests plus component and Playwright e2e suites gate every Azure deploy (ACR + App Service, Docker).
+- **Tap an error code, see the part on the machine.** 1,911 error entries across three Glory recyclers, all grounded in the service manuals: **RBG-100** (392), **GLR-100** (1,133, with STC and Non-STC schematics), and **RBU-11** (386). Each model is driven by one config file, with no model-specific code paths.
+- **Ask Judge**, a remote MCP connector that puts Judge inside Claude: 10 read-only tools for symptom diagnosis, error-sequence correlation, code and component lookup, reference search, and repair workflows. Judge runs no LLM of its own. Claude is the client, and Judge only returns manual-grounded answers.
+- **Log diagnosis.** Upload a machine's native log dump and Judge resolves every code against the manual, pins the parts on the schematic, and ranks an inspection order. Manual facts and inferred correlations are kept apart, so an inspection order never gets passed off as a root cause.
+- 62 guided repair workflows with 466 field photos, plus jam-zone maps and RAS troubleshooting codes.
+- **Field operations.** Judge has grown past diagnostics into the app techs use on the job: paperless installs (a QR sticker per machine, checklists on a phone, a signed PDF that replaces three paper forms), expense reports routed to the right manager, vehicle inspections, and an ATM site-survey wizard.
+- Multi-tenant security: Entra ID single sign-on, four roles, a tamper-evident hash-chained audit log, per-customer access rules, rate limiting, and an encryption-at-rest boot check.
+- 2,400+ backend tests, 1,500+ frontend tests, and 45 Playwright e2e specs gate every Azure deploy (ACR + App Service, Docker).
 
-### Custos — fleet telemetry for Cassida Pro Zeus discriminators
+### NEM Skills: a shared Claude skills library for the team
 
-Started as two-way USB serial I/O for Cassida Pro Zeus currency discriminators — device enumeration and scriptable commands where the vendor ships Windows-only software. It's grown into a fleet-telemetry layer: passive monitoring of count statistics, reject rates, and device health across deployments.
+Written procedures that teach Claude how NEM does real jobs, so anyone on the team gets the same method. There are 14 so far, including GLR-100 log-pull analysis with firmware and config checks, DynaCore / TCR recycler balancing, NCR ATM log investigation, statements of work, and weekly service-order status reports. Techs install them without writing code.
+
+### Custos: fleet telemetry for Cassida Pro Zeus discriminators
+
+Started as two-way USB serial I/O for Cassida Pro Zeus currency discriminators, where the vendor only ships Windows software. It's now a passive fleet-telemetry layer that reports count statistics, reject rates, and device health from bank sites. It needs no admin rights or installer and opens no inbound network surface.
+
+### Smaller tools
+
+- **Judge-Leverage-Tool**: finds new Glory installs in our Leverage service system and emails the install lead a pre-filled Judge link for each one.
+- **Tomb Stack**: a Raycast extension that collects several clipboard items to hand to Claude at once and archives them into my Obsidian vault.
 
 ## Connect
 
