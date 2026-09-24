@@ -25,6 +25,7 @@ CS graduate from UMass Amherst. Sole internal software developer at New England 
 
 FastAPI backend, React / TypeScript frontend, deployed on Azure. Currently at v11.1 after 1,000+ commits.
 
+- **Tap an error code, see the part on the machine.** Manual-grounded error lookup with interactive schematics for **RBG-100** (392 codes) and **GLR-100** (1,133 codes, with STC and Non-STC diagrams). Each model is driven by one config file, with no model-specific code paths.
 - **Ask Judge**, a remote MCP connector that puts Judge inside Claude: 10 read-only tools for symptom diagnosis, error-sequence correlation, code and component lookup, reference search, and repair workflows. It also covers the **RBU-11** (386 codes), which is available only through the connector. Judge runs no LLM of its own & only returns manual-grounded answers.
 - **Log diagnosis.** Upload a machine's native log dump and Judge resolves every code against the manual, pins the parts on the schematic, and ranks an inspection order. Manual facts and inferred correlations are kept apart, so an inspection order never gets passed off as a root cause.
 - 62 guided repair workflows with 466 field photos, plus jam-zone maps and RAS troubleshooting codes.
